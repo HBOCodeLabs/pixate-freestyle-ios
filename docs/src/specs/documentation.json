@@ -121,7 +121,7 @@
           }
         },
         "font-weight": {
-          "source": "normal | bold | black | heavy | extra-bold | ultra-bold | semi-bold | demi-bold | medium | light | extra-thin | ultra-thin | thin | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
+          "source": "normal | bold | black | heavy | extra-bold | ultra-bold | semi-bold | demi-bold | medium | light | extra-light | ultra-light | extra-thin | ultra-thin | thin | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
           "ast": {
             "xor": [
               {
@@ -558,7 +558,7 @@
           }
         },
         "font-weight": {
-          "source": "normal | bold | black | heavy | extra-bold | ultra-bold | semi-bold | demi-bold | medium | light | extra-thin | ultra-thin | thin | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
+          "source": "normal | bold | black | heavy | extra-bold | ultra-bold | semi-bold | demi-bold | medium | light | extra-light | ultra-light | extra-thin | ultra-thin | thin | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
           "ast": {
             "xor": [
               {
@@ -1440,7 +1440,7 @@
           "comment": "Deprecated in 1.1. Please use 'font-style' on the 'title' child element"
         },
         "font-weight": {
-          "source": "normal | bold | black | heavy | extra-bold | ultra-bold | semi-bold | demi-bold | medium | light | extra-thin | ultra-thin | thin | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
+          "source": "normal | bold | black | heavy | extra-bold | ultra-bold | semi-bold | demi-bold | medium | light | extra-light | ultra-light | extra-thin | ultra-thin | thin | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
           "ast": {
             "xor": [
               {

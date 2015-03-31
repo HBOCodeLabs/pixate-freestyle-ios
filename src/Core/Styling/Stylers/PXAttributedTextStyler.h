@@ -30,7 +30,7 @@
  *  - font-family: <string>
  *  - font-size: <length>
  *  - font-style: normal | italic | oblique
- *  - font-weight: normal | bold | black | heavy | extra-bold | ultra-bold | semi-bold | demi-bold | medium | light | extra-thin | ultra-thin | thin | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
+ *  - font-weight: normal | bold | black | heavy | extra-bold | ultra-bold | semi-bold | demi-bold | medium | light | extra-light | ultra-light | extra-thin | ultra-thin | thin | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
  *  - font-stretch: normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded
  *  - letter-spacing: <length> | ems | percent
  *  - text-transform: uppercase | lowercase | capitalize
