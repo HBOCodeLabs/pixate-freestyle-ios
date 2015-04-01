@@ -53,7 +53,7 @@
  *  - font-family: <string> // Deprecated in 1.1. Please use 'font-family' on the 'title' child element
  *  - font-size: <length> // Deprecated in 1.1. Please use 'font-size' on the 'title' child element
  *  - font-style: normal | italic | oblique // Deprecated in 1.1. Please use 'font-style' on the 'title' child element
- *  - font-weight: normal | bold | black | heavy | extra-bold | ultra-bold | semi-bold | demi-bold | medium | light | extra-thin | ultra-thin | thin | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 // Deprecated in 1.1. Please use 'font-weight' on the 'title' child element
+ *  - font-weight: normal | bold | black | heavy | extra-bold | ultra-bold | semi-bold | demi-bold | medium | light | extra-light | ultra-light | extra-thin | ultra-thin | thin | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 // Deprecated in 1.1. Please use 'font-weight' on the 'title' child element
  *  - font-stretch: normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded // Deprecated in 1.1. Please use 'font-stretch' on the 'title' child element
  *  - PXTextContentStyler
  *  - text-transform: lowercase | uppercase | capitalize

@@ -63,10 +63,13 @@ static NSRegularExpression *DIGIT_WEIGHT;
             @"medium" : @(500),
             @"normal" : @(400),
             @"light" : @(300),
-            @"extra-thin" : @(200),
-            @"ultra-thin" : @(200),
+            @"xlight" : @(200),
+            @"extra-light" : @(200),
             @"ultra-light" : @(200),
             @"thin" : @(100),
+            @"xthin" : @(100),
+            @"extra-thin" : @(100),
+            @"ultra-thin" : @(100),
         };
     }
 
@@ -402,17 +405,14 @@ static NSRegularExpression *DIGIT_WEIGHT;
             result = 500;
         }
         // NOTE: "normal" is the default below
-        else if ([name rangeOfString:@"light"].location != NSNotFound && [name rangeOfString:@"ultralight"].location == NSNotFound)
-        {
-            result = 300;
-        }
-        else if (
-                [name rangeOfString:@"extrathin"].location != NSNotFound
-            ||  [name rangeOfString:@"ultrathin"].location != NSNotFound
-            ||  [name rangeOfString:@"ultralight"].location != NSNotFound)
+        else if ([name rangeOfString:@"xlight"].location != NSNotFound || [name rangeOfString:@"ultralight"].location != NSNotFound)
         {
             result = 200;
         }
+        else if ([name rangeOfString:@"light"].location != NSNotFound)
+        {
+            result = 300;
+        } 
         else if ([name rangeOfString:@"thin"].location != NSNotFound)
         {
             result = 100;
